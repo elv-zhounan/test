@@ -3,7 +3,7 @@ import React, { Component, useState, useEffect, useLayoutEffect} from 'react';
 
 import { StyleSheet, TouchableOpacity, View, Text, ScrollView,} from 'react-native';
 import VideoPlayer from '../components/VideoPlayer';
-import MetaTrack from '../components/Track';
+import Track from '../components/Track';
 const MetaScreen = ({navigation, route}) => {
 
     // video component setting
