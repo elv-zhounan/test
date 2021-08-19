@@ -1,0 +1,52 @@
+{
+  "name": "EVE",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@eluvio/elv-client-js": "^3.1.62",
+    "@expo/browser-polyfill": "^0.1.1",
+    "@ptomasroos/react-native-multi-slider": "^2.2.2",
+    "@react-native-community/cli": "^5.0.1",
+    "@react-native-community/slider": "^3.0.3",
+    "@react-native-community/toolbar-android": "0.1.0-rc.2",
+    "@react-navigation/native": "^6.0.1",
+    "@react-navigation/native-stack": "^6.0.2",
+    "@unimodules/core": "^7.1.1",
+    "date-fns": "^2.23.0",
+    "pod-install": "^0.1.23",
+    "react": "17.0.1",
+    "react-native": "0.64.2",
+    "react-native-eject": "^0.1.2",
+    "react-native-elements": "^3.4.2",
+    "react-native-get-random-values": "^1.7.0",
+    "react-native-modals": "^0.22.3",
+    "react-native-popup-dialog": "^0.18.3",
+    "react-native-safe-area-context": "^3.3.0",
+    "react-native-screens": "^3.5.0",
+    "react-native-unimodules": "^0.14.6",
+    "react-native-uuid": "^2.0.1",
+    "react-native-vector-icons": "^6.7.0",
+    "react-native-video": "^5.1.1",
+    "webassemblyjs": "^1.11.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/runtime": "^7.14.8",
+    "@react-native-community/eslint-config": "^3.0.0",
+    "babel-jest": "^27.0.6",
+    "eslint": "^7.32.0",
+    "jest": "^27.0.6",
+    "metro-react-native-babel-preset": "^0.66.2",
+    "react-test-renderer": "17.0.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
